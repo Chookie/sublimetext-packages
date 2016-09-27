@@ -1,0 +1,5 @@
+{
+	"cmd": ["open -a '/Applications/Google Chrome.app' $file"],
+    "shell": true,
+	"selector": "*.html"
+}

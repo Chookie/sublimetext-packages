@@ -1,0 +1,91 @@
+[
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bof"} },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eof"} },
+    { "keys": ["ctrl+d"], "command": "goto_definition" },
+	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },		
+    {
+        "keys": [
+            "super+up"
+        ], 
+        "args": {
+            "action": "increment_number_by_1"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    },     
+    {
+        "keys": [
+            "super+down"
+        ], 
+        "args": {
+            "action": "decrement_number_by_1"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    }, 
+    {
+        "keys": [
+            "alt+up"
+        ], 
+        "args": {
+            "action": "increment_number_by_01"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_01"
+            }
+        ]
+    }, 
+    {
+        "keys": [
+            "alt+down"
+        ], 
+        "args": {
+            "action": "decrement_number_by_01"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_01"
+            }
+        ]
+    },    
+    {
+        "keys": [
+            "alt+super+down"
+        ], 
+        "args": {
+            "action": "decrement_number_by_10"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_10"
+            }
+        ]
+    },  
+    {
+        "keys": [
+            "alt+super+up"
+        ], 
+        "args": {
+            "action": "increment_number_by_10"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_10"
+            }
+        ]
+    }
+]

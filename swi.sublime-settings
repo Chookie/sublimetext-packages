@@ -1,0 +1,13 @@
+{
+	"breaks":
+	{
+		"/users/alison/development/javascript/javascriptdisplay/script.js":
+		{
+			"2":
+			{
+				"breakpointId": "None",
+				"status": "disabled"
+			}
+		}
+	}
+}

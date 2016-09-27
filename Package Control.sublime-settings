@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Babel",
+		"Boxy Theme",
+		"Color Highlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"Darkula Color Scheme",
+		"Emmet",
+		"Evernote",
+		"HTML-CSS-JS Prettify",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SnippetMaker",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Terminal",
+		"View In Browser",
+		"WordCount"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"color_scheme": "Packages/User/SublimeLinter/Bj-DarculaAJ2 (SL).tmTheme",
+	"disable_tab_abbreviations_on_auto_complete": false,
+	"fade_fold_buttons": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0,
+	"theme": "Boxy Monokai.sublime-theme"
+}
